@@ -1,6 +1,6 @@
 # SongList
 
-[已唱/待唱歌单](./playlist/)
+[已唱/待唱歌单](./playlist)  // pages 页面才可以点开啦
 
 ## 缘起
 
