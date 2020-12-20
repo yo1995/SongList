@@ -1,6 +1,8 @@
 # SongList
 
-[已唱/待唱歌单](./playlist)  // pages 页面才可以点开啦
+[已唱歌单](./playlist)
+
+[待唱歌单](https://github.com/yo1995/SongList/issues)
 
 ## 缘起
 
