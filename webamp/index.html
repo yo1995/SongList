@@ -10,12 +10,8 @@
         <!-- Webamp will attempt to center itself within this div -->
     </div>
     <script type="text/javascript" src="https://unpkg.com/webamp@1.4.2/built/webamp.bundle.min.js"></script>
-    <script type="text/javascript" src="playlist.json"></script>
-    <script>
-        async function getJSON(path, callback) {
-            return callback(await fetch(path).then(r => r.json()));
-        }
-        
+    <script type="text/javascript" src="playlist.js"></script>
+    <script>        
         const Webamp = window.Webamp;
         const webamp = new Webamp({
             initialTracks: tracks
