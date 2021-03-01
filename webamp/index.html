@@ -9,13 +9,13 @@
     <div id="app" style="height: 100vh">
         <!-- Webamp will attempt to center itself within this div -->
     </div>
-    <script src="https://unpkg.com/webamp@1.4.2/built/webamp.bundle.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/webamp@1.4.2/built/webamp.bundle.min.js"></script>
+    <script type="text/javascript" src="playlist.json"></script>
     <script>
-    	async function getJSON(path, callback) {
-    		return callback(await fetch(path).then(r => r.json()));
-		}
-		var tracks;
-		getJSON('playlist.json', data => tracks = data);
+        async function getJSON(path, callback) {
+            return callback(await fetch(path).then(r => r.json()));
+        }
+        
         const Webamp = window.Webamp;
         const webamp = new Webamp({
             initialTracks: tracks
