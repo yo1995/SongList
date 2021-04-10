@@ -14,7 +14,12 @@
     <script>
         const Webamp = window.Webamp;
         const webamp = new Webamp({
-            initialTracks: tracks
+            initialTracks: tracks,
+			__initialWindowLayout: {
+                main: { position: { x: 0, y: 0 } },
+                equalizer: { position: { x: 0, y: 116 } },
+                playlist: { position: { x: 275, y: 0 }, size: [0, 4] }
+            }
         });
 
         // Returns a promise indicating when it's done loading.
