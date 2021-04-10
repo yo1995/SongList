@@ -1,6 +1,6 @@
 # SongList
 
-[已唱歌单](./playlist)
+[已唱歌单](playlist)
 
 [待唱歌单](https://github.com/yo1995/SongList/issues)
 
