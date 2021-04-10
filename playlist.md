@@ -1,3 +1,22 @@
+
+<div id="app" style="float: right;width: 50vw;height: 50vh"></div>
+<script type="text/javascript" src="https://unpkg.com/webamp@1.4.2/built/webamp.bundle.min.js"></script>
+<script type="text/javascript" src="webamp/playlist.js"></script>
+<script>
+    const Webamp = window.Webamp;
+    const webamp = new Webamp({
+        initialTracks: tracks,
+        __initialWindowLayout: {
+            main: { position: { x: 0, y: 0 } },
+            equalizer: { position: { x: 0, y: 116 } },
+            playlist: { position: { x: 275, y: 0 }, size: [0, 4] }
+        }
+    });
+
+    // Returns a promise indicating when it's done loading.
+    webamp.renderWhenReady(document.getElementById('app'));
+</script>
+
 ## 2018
 
 - [洗碗机伴奏国际歌](2018年9月29日 洗碗机伴奏国际歌.mp3)
@@ -5,6 +24,7 @@
 - [呼伦贝尔大草原](2018年10月9日 呼伦贝尔大草原.mp3)
 - [我的天堂](2018年10月9日 我的天堂.mp3)
 - [爱情买卖](2018年10月9日 爱情买卖.mp3)
+- [保卫黄河](2018年11月22日 保卫黄河.mp3)
 - [太平洋的风](2018年12月23日 20_35_27 太平洋的风.mp3)
 - [光阴的故事](2018年12月23日 光阴的故事.mp3)
 - [匆匆那年](2018年12月23日 匆匆那年.mp3)
@@ -167,10 +187,6 @@
 
 - [今天是你的生日](2021年1月3日 22_19_11 今天是你的生日.mp3)
 - [约定](2021年2月27日 15_39_35 约定.mp3)
-
-## ‎2018‎
-
-- [保卫黄河](‎2018‎年‎11‎月‎22‎日 保卫黄河.mp3)
 
 ---
 
