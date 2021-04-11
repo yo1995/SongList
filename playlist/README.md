@@ -1,7 +1,7 @@
 
 <div id="app" style="float: right;width: 50vw;height: 50vh"></div>
 <script type="text/javascript" src="https://unpkg.com/webamp@1.4.2/built/webamp.bundle.min.js"></script>
-<script type="text/javascript" src="webamp/playlist.js"></script>
+<script type="text/javascript" src="../webamp/playlist.js"></script>
 <script>
     const Webamp = window.Webamp;
     const webamp = new Webamp({
