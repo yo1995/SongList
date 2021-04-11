@@ -2,6 +2,8 @@
 
 [已唱歌单](playlist)
 
+[单独播放器页面](webamp)
+
 [待唱歌单](https://github.com/yo1995/SongList/issues)
 
 ## 缘起
