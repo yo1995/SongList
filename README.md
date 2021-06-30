@@ -1,4 +1,9 @@
-# SongList
+<div align="center">
+    <img width="256" src="https://yo1995.github.io/images/201811/bathroom-singer.jpg" alt="Singer">
+</div>
+<div align="center">
+    <h1>SongList<br><i><sup>The cornerstone of my pursuit of voice acting</sup></i></h1>
+</div>
 
 [已唱歌单](playlist)
 
@@ -27,10 +32,13 @@ GitHub有很好的进度管理模式和工具，用label就能解决这个问题
 
 ## 分段
 
-主要是三个阶段
+主要分为[如下阶段](https://github.com/yo1995/SongList/milestones)
 
 - 2018年9月到2019年5月
 - 2019年5月到8月
 - 2019年12月到2020年5月
+- 2020年夏天
+- 2020年夏天到2021年4月
+- 2021年四月到……
 
 未完待续
